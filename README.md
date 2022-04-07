@@ -15,6 +15,8 @@
 
 * [ ceci est une marelle avec des pieds et des mains avec des trucs pas pareil](./merour_tiphaine/marelle_pieds-mains V2.html/) 
 
-## Test lumières
+## Tests lumières
 
 * [test1](./merour_tiphaine/test_lumieres.html/)
+* [test2](./merour_tiphaine/test_lumieres2.html/)
+* [test3](./merour_tiphaine/test_lumieres3.html/)
