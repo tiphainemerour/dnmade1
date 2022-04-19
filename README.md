@@ -22,3 +22,7 @@
 * [test3](./merour_tiphaine/test_lumieres3.html/)
 
 ## Tests lumières volumes
+
+* [test1](./merour_tiphaine/exemple_obj.html/)
+* [test2](./merour_tiphaine/exemple_obj2.html/)
+* [test3](./merour_tiphaine/exemple_obj3.html/)
