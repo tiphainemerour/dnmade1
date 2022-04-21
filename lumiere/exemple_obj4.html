@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene background="color:black">
+
+        <a-assets>
+            <a-asset-item id="agathe-obj" src="./assets/agathe.obj"></a-asset-item>
+            <a-asset-item id="agathe-mtl" src="./assets/agathe.mtl"></a-asset-item>
+        </a-assets>
+
+        <a-entity obj-model="obj: #agathe-obj; mtl: #agathe-mtl" position="0 0 -4" scale="20 20 20"></a-entity>
+
+        <a-entity light="type: spot; angle: 45; color: #ff7300; penumbra: 0.42"position="1.48 0 -1.651" ></a-entity>
+
+        <a-entity light="type: spot; angle: 120; color: #ff1900; penumbra: 0.42" position="-3.69291 0.46931 -3.1392"></a-entity>
+
+       
+
+        <a-entity light="type: spot; angle: 45; color: #ff1900; penumbra: 0.35" position="-2.85425 0.02114 -7.78294" scale="-0.65 -0.01 -0.63"></a-entity>
+
+        <a-entity light="type: spot; angle: 45; color: #ff00dd; penumbra: 1; decay: 1.21" position="3.24982 -1.57909 -8.82769" scale="-0.65 -0.01 -0.63"></a-entity>
+
+        <a-entity light="type: spot; angle: 45; color: #ff4000; penumbra: 1; decay: 1.21" position="1.32881 -0.17386 -7.14267" scale="-0.65 -0.01 -0.63"></a-entity>
+
+        <a-entity light="type: point; intensity: 0.75; distance: 50; decay: 2; color: #0014ad" position="-3.65753 9.77217 10.17449">
+        </a-entity>
+
+        <a-entity light="type: point; intensity: 0.75; distance: 50; decay: 2; color: #001775" position="-0.80626 6.9805 -20.2211">
+        </a-entity>
+    </a-scene>
+</body>
+
+</html>
