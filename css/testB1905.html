@@ -3,27 +3,39 @@
 
     <head>
         <style>
-            #contenaire { background-color: silver;
+            #container{ background-color: silver;
              display: flex; 
-            flex-flow: row wrap;}
+            flex-flow: row wrap;
+            align-items:center ;
+            justify-content: center;
+            height: 100vh;
+        }
 
-            #contenaire div {
-                width: 300px; 
-                background-color: yellow; width: 100px}
+          #container div {
+              background-color: yellow;
+              width: 100px;
+              margin: 10px;
+              flex: none;
 
-            #bloc2 {flex-basis: 50px; background-color: blue;
-            border: dotted 1px red; }
-           
+          }
+    
         </style>
 
     </head>
 
 <body>
 
-    <div id="contenaire">
+    <div id="container">
         <div>One</div>
-        <div id="bloc2">Two</div>
-        <div>Three</div>
+        <div>Two</div>
+        <div>Three
+            <br>sur
+            <br>plusieurs
+            <br>lignes
+        </div>
+        <div>four</div>
+        <div>five</div>
+        <div>six</div>
       
 
     </div>
